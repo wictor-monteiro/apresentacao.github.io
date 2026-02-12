@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Apresentação</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body {
+    background: radial-gradient(circle at center, #d1f07d 0%, #f3fc78 70%);
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    color: black;
+}
+
+/* BOTÃO MENU */
+.btn-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    background: #f3fc78;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+
+    box-shadow: 0 0 14px rgba(0,255,170,0.7);
+    transition: 0.25s;
+}
+
+.btn-menu:hover {
+    background: #00ffaa;
+    color: black;
+}
+
+/* TÍTULO */
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 46px;
+    margin-bottom: 45px;
+    color: #e90707;
+    text-shadow:
+        3px 3px 0 #00aa66,
+        -1px -1px 0 #004433;
+}
+
+h1:hover {
+    text-shadow: 0.04em 0.04em #fc0049, 0.08em 0.08em #fe8f01,
+      0.12em 0.12em #fdf21f, 0.16em 0.16em #3fdf4b, 0.2em 0.2em #3462fe;
+}
+
+/* CONTEÚDO */
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(247, 242, 242, 0.6);
+    border: 3px dashed black;
+    padding: 35px;
+}
+
+/* SEÇÕES */
+.section {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.section img {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 12px rgba(245, 58, 58, 0.6);
+}
+
+
+.section h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #e90707;
+}
+
+.section p {
+    font-size: 32px;
+    line-height: 1.8;
+}
+
+/* SCANLINES CRT */
+.scanlines {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.025),
+        rgba(255,255,255,0.025) 1px,
+        transparent 2px,
+        transparent 4px
+    );
+}
+
+.section ul {
+    font-size: 30px;
+    line-height: 1.8;
+    list-style: none;
+    padding-left: 0;
+}
+
+.section ul li::before {
+    content: "▶ ";
+    color: #5e4dfc;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="scanlines"></div>
+
+<a href="menu.html" class="btn-menu">
+<i class="fa fa-home fa-2x"></i>
+</a>
+
+
+<h1>AVENTURANDO-SE NO L.E.M.</h1>
+
+<div class="wrapper">
+
+    <div class="section">
+        <h2>▌O QUE É O LABORATÓRIO DE MATEMÁTICA?</h2>
+        <p>
+        Já imaginou aprender matemática com jogos, peças coloridas,
+        desafios e experiências práticas? 
+        O Laboratório de Ensino de Matemática é um espaço onde o aluno
+        investiga, experimenta e relaciona os conceitos matemáticos de forma
+        concreta e divertida!
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>▌POR QUE ELE EXISTE?</h2>
+        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=900" alt="">
+        <p>
+        O laboratório surgiu da necessidade de tornar a matemática mais
+        próxima da realidade do estudante.  
+        Em vez de apenas fórmulas no quadro, usamos materiais manipuláveis,
+        jogos didáticos e atividades investigativas para estimular o
+        raciocínio lógico.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>▌OBJETIVOS DO LABORATÓRIO</h2>
+        <img src="laboratorio.jpg" alt="">
+        <p>
+            <ul>
+            <li>Desenvolver a compreensão dos conceitos matemáticos; </li>
+            <li>Estimular a curiosidade e a investigação; </li>
+            <li>Trabalhar em grupo e discutir ideias;</li>
+            <li>Relacionar matemática com o cotidiano.</li>
+            </ul>
+        </p>
+    </div>
+
+
+    <div class="section">
+        <h2>▌ IMPORTâNCIA DO L.E.M. PARA A FORMAÇÃO <br> <br> DOCENTE <br> </h2>
+        <img src="praticas.jpg" alt="">
+        <p>
+            <ul>
+                <li>Elaboração de materiais didáticos manipuláveis;</li>
+                <li>Desenvolvimento de atividades investigativas;</li>
+                <li>Construção de jogos matemáticos;</li>
+                <li>Discussão crítica sobre métodos e tendências de ensino;</li>
+                <li>Avaliação das práticas futuras em sala de aula;</li>
+                <li>Trabalho colaborativo entre futuros professores.</li>
+            </ul>
+        </p>
+    </div>
+
+
+    <div class="section">
+        <h2>▌POR QUE ELE MOTIVA OS ALUNOS?</h2>
+        <img src="motivacao.jpg" alt="">
+        <p>
+        Quando o aluno manipula, testa hipóteses e descobre respostas,
+        a matemática deixa de ser assustadora e vira uma aventura!
+        O laboratório transforma a sala de aula em um espaço de
+        exploração, diálogo e criatividade.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>▌NOSSA EQUIPE</h2>
+        <p>
+        Somos um time que acredita que aprender matemática pode ser
+        investigativo, colaborativo e divertido!  
+        Trabalhamos juntos para criar experiências que despertam
+        curiosidade, autonomia e pensamento crítico.
+        </p>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
